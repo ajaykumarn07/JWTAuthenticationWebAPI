@@ -7,7 +7,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace JWTAuthenticationWebAPI.Controllers
 {
-   [Authorize]
+   [Authorize] // JWTAuthentication
     [Route("api/[controller]")]
     [ApiController]
     public class EmployeeController : ControllerBase
